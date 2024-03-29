@@ -1,0 +1,140 @@
+{
+    "ansible.validation.lint.enabled": false,
+    //"ansible.ansible.path": "/opt/homebrew/bin/ansible",
+
+    "diffEditor.maxComputationTime": 0,
+
+    "editor.detectIndentation": true,
+    "editor.foldingStrategy": "auto",
+    "editor.fontLigatures": false,
+    "editor.insertSpaces": true,
+    "editor.quickSuggestions": { "comments": true, "other": true, "strings": true },
+    "editor.rulers": [ 80,160 ],
+    "editor.tabSize": 2,
+
+    "extensions.ignoreRecommendations": true,
+
+    "files.associations": {
+        "*.yml": "ansible",
+        "*.yaml": "ansible",
+        "*.j2": "ansible-jinja"
+    },
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 5000,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+
+    "git.alwaysSignOff": true,
+    "git.autofetch": "all",
+    "git.autofetchPeriod": 60,
+    "git.closeDiffOnOperation": true,
+    "git.confirmEmptyCommits": true,
+    "git.confirmSync": false,
+    "git.fetchOnPull": true,
+    "git.ignoreLegacyWarning": true,
+    "git.mergeEditor": true,
+    "git.postCommitCommand": "sync",
+    "git.pruneOnFetch": true,
+    "git.pullBeforeCheckout": true,
+    "git.repositoryScanMaxDepth": -1,
+    "git.showPushSuccessNotification": true,
+    "git.suggestSmartCommit": false,
+
+    "gitlens.views.worktrees.files.layout": "list",
+    "gitlens.graph.minimap.additionalTypes": [ "localBranches", "stashes", "remoteBranches" ],
+
+    "[python]": { "editor.formatOnType": true },
+
+    "redhat.telemetry.enabled": false,
+
+    "scm.experimental.showSyncView": true,
+
+    "security.workspace.trust.enabled": false,
+
+    "todohighlight.include": [
+        "**/*.yml",
+        "**/*.js",
+        "**/*.jsx",
+        "**/*.ts",
+        "**/*.tsx",
+        "**/*.html",
+        "**/*.php",
+        "**/*.css",
+        "**/*.scss"
+    ],
+    "todohighlight.keywords": [
+        "DEBUG:",
+        "REVIEW:",
+        {
+            "text": "NOTE:",
+            "color": "#000000",
+            "overviewRulerColor": "#000000",
+            "border": "1px solid #000000",
+            "backgroundColor": "#FFFFFF",
+            "borderRadius": "2px",
+            "isWholeLine": true
+        },
+        {
+            "text": "HACK:", //White on Red
+            "color": "#FFFFFF",
+            "overviewRulerColor": "#FFFFFF",
+            "border": "1px solid #FFFFFF",
+            "backgroundColor": "#C8102E",
+            "borderRadius": "2px",
+            "isWholeLine": true
+        },
+        {
+            "text": "TODO:", // White on Orange
+            "color": "#FFFFFF",
+            "overviewRulerColor": "#FFFFFF",
+            "border": "1px solid #FFFFFF",
+            "backgroundColor": "#FF671F",
+            "borderRadius": "2px",
+            "isWholeLine": true
+        },
+        {
+            "text": "FIXME", // Black on Yellow
+            "color": "#000000",
+            "overviewRulerColor": "#000000",
+            "border": "1px solid #000000",
+            "backgroundColor": "#F7EA48",
+            "borderRadius": "2px",
+            "isWholeLine": true
+        }
+    ],
+    "todohighlight.defaultStyle": { //White on Blue
+        "color": "#FFFFFF",
+        "overviewRulerColor": "#FFFFFF",
+        "border": "1px solid #FFFFFF",
+        "backgroundColor": "#0033A0",
+        "borderRadius": "2px",
+        "isWholeLine": true
+    },
+
+    "workbench.colorTheme": "GitHub Dark Default",
+
+    "workbench.colorCustomizations": {
+        "tree.indentGuidesStroke": "#00ff00"
+    },
+    "workbench.tree.indent": 16,
+
+    "[yaml]": { "files.trimTrailingWhitespace": true, "files.trimFinalNewlines": true },
+    "yaml.customTags": [
+        "!vault"
+    ],
+    "rsp-ui.enableStartServerOnActivation": [
+        {
+            "id": "redhat.vscode-server-connector",
+            "name": "Red Hat Server Connector",
+            "startOnActivation": true
+        }
+    ],
+    "github-enterprise.uri": "https://gitlab.circ.rochester.edu/",
+    "git.enableSmartCommit": true,
+    "gitlens.advanced.messages": {
+        "suppressLineUncommittedWarning": true
+    },
+    "workbench.editor.empty.hint": "hidden"
+
+
+}
